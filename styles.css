@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Asap:400,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /*makes it so that the padding/border are w/in the width */
+}
+
+header {
+  background-color: #FFF;
+  padding: 20px;
+}
+
+header > h1 {
+  color: #25272E;
+  text-align: center;
+  font-family: Asap, arial;
+}
+
+body {
+  background-color: #25272E;
+}
+
+.scoreboard {
+  border: 3px solid #FFF;
+  width: 200px;
+  margin: 20px auto;
+  color: #FFF;
+  font-size: 36px;
+  border-radius: 5px;
+  text-align: center;
+  padding: 20px 20px;
+  font-family: Asap, arial;
+  position: relative;
+}
+
+.badge {
+  background-color: #E2584D;
+  padding: 1px 5px;
+  font-size: 15px;
+}
+
+
+#user-badge {
+  position: absolute;
+  top: 40%;
+  left: -10%;
+}
+
+#comp-badge {
+  position: absolute;
+  top: 40%;
+  right: -10%;
+}
+
+.result {
+  color: #FFF;
+  text-align: center;
+  font-family: Asap, arial;
+  font-size: 30px;
+  padding: 20px 0px;
+}
+
+.choices {
+  text-align: center;
+  margin: 40px 0px;
+}
+
+.choice {
+  display: inline-block;
+  padding: 20px;
+  border: 3px solid #FFF;
+  border-radius: 50%;
+  margin: 0px 10px;
+}
+
+.choice:hover {
+  cursor: pointer;
+  background-color: #AAA;
+  transition: 0.3s;
+}
+
+#command-message {
+  color: #FFF;
+  text-align: center;
+  font-family: Asap, arial;
+  font-size: 18px;
+  margin: 10px 0px;
+}
