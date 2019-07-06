@@ -18,7 +18,7 @@ header > h1 {
 }
 
 body {
-  background-color: #25272E;
+  background-color: #65278F;
 }
 
 .scoreboard {
@@ -78,6 +78,19 @@ body {
   cursor: pointer;
   background-color: #AAA;
   transition: 0.3s;
+}
+
+.green-glow {
+  border: 3px solid #4c7;
+  box-shadow: 0 0 10px #3b3;
+}
+.red-glow {
+  border: 3px solid #f11;
+  box-shadow: 0 0 10px #d11;
+}
+.gray-glow {
+  border: 3px solid #444;
+  box-shadow: 0 0 10px #222;
 }
 
 #command-message {
