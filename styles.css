@@ -7,12 +7,12 @@
 }
 
 header {
-  background-color: #FFF;
+  background-color: #eee;
   padding: 20px;
 }
 
 header > h1 {
-  color: #25272E;
+  color: #43056d;
   text-align: center;
   font-family: Asap, arial;
 }
@@ -22,15 +22,15 @@ body {
 }
 
 .scoreboard {
-  border: 3px solid #FFF;
+  border: 4px solid #eee;
   width: 200px;
   margin: 20px auto;
-  color: #FFF;
+  color: #eee;
   font-size: 36px;
   border-radius: 5px;
   text-align: center;
   padding: 20px 20px;
-  font-family: Asap, arial;
+  font-family: Arial;
   position: relative;
 }
 
@@ -54,11 +54,12 @@ body {
 }
 
 .result {
-  color: #FFF;
+  color: #eee;
   text-align: center;
   font-family: Asap, arial;
   font-size: 30px;
   padding: 20px 0px;
+  font-weight: bold;
 }
 
 .choices {
@@ -69,34 +70,36 @@ body {
 .choice {
   display: inline-block;
   padding: 20px;
-  border: 3px solid #FFF;
+  border: 3px solid #eee;
   border-radius: 50%;
   margin: 0px 10px;
+  background-color: #739;
 }
 
 .choice:hover {
   cursor: pointer;
-  background-color: #AAA;
+  background-color: #999;
   transition: 0.3s;
 }
 
 .green-glow {
   border: 3px solid #4c7;
-  box-shadow: 0 0 10px #3b3;
+  box-shadow: 0 0 7px #3b3;
 }
 .red-glow {
   border: 3px solid #f11;
-  box-shadow: 0 0 10px #d11;
+  box-shadow: 0 0 7px #d11;
 }
 .gray-glow {
   border: 3px solid #444;
-  box-shadow: 0 0 10px #222;
+  box-shadow: 0 0 7px #222;
 }
 
 #command-message {
-  color: #FFF;
+  color: #eee;
   text-align: center;
   font-family: Asap, arial;
   font-size: 18px;
   margin: 10px 0px;
+  font-weight: bold;
 }
